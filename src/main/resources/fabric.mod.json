@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "vanilla_enhanced",
+	"version": "${version}",
+	"name": "Vanilla Enhanced",
+	"description": "Library for Vanilla Enhanced Datapack",
+	"authors": [
+		"Chrqnos"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.chrqnos.vanilla_enhanced.VanillaEnhanced"
+		]
+	},
+	"mixins": [
+		"vanilla_enhanced.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.21.0<1.22",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

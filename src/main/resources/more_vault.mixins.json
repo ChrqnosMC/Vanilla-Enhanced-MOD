@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.chrqnos.vanilla_enhanced.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PhantomSpawnerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
